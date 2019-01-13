@@ -48,7 +48,7 @@ const Cards = styled.div`
 `
 
 const Card = styled(Link)`
-  width: 400px;
+  max-width: 400px;
   height: 200px;
   padding: 10px;
   border-radius: 3px;

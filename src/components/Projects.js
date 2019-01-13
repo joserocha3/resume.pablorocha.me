@@ -31,6 +31,7 @@ const Heading = styled.h3`
   line-height: 1.3;
   font-size: 1.5rem;
   font-weight: 700;
+  margin: 1rem 0;
 `
 
 const Descripton = styled.div`
@@ -48,7 +49,7 @@ const Cards = styled.div`
 `
 
 const Card = styled(Link)`
-  width: 400px;
+  max-width: 400px;
   height: 200px;
   padding: 10px;
   border-radius: 3px;
@@ -72,7 +73,7 @@ const Projects = () => (
     <Cards>
       <Card href="https://www.whiterabbitpress.com/japanesegradedreaders/" target="_blank">
         <Heading>Japanese Graded Readers</Heading>
-        <Descripton>React Native mobile application powered by back-office admin dashboard. Uses Firebase for authentication, storage and notifications.</Descripton>
+        <Descripton>React Native app powered by an admin dashboard. Uses Firebase for authentication, storage and notifications.</Descripton>
       </Card>
       <Card href="https://www.pawsomedogs.net/" target="_blank" blue>
         <Heading>Pawsome Dogs</Heading>

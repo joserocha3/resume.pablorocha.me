@@ -38,8 +38,8 @@ module.exports = {
         name: 'Pablo Rocha',
         short_name: 'Pablo Rocha',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#AFADE7',
+        theme_color: '#AFADE7',
         display: 'minimal-ui',
         icon: 'src/images/initials.png', // This path is relative to the root of the site.
       },
