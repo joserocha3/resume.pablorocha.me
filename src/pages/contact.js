@@ -103,7 +103,7 @@ const Contact = () => (
     />
     <Wrapper>
       <Name>{'Let\'s Collaborate'}</Name>
-      <Description>I am available for contract work or to simply talk tech.</Description>
+      <Description>I am available for contract work or to simply talk tech</Description>
       <Form action="https://formspree.io/pablo@dotdotdata.com" method="POST">
         <input type="text" name="_gotcha" style={{ display: 'none' }} />
         <input type="hidden" name="_subject" value="New submission from pablorocha.me" />
