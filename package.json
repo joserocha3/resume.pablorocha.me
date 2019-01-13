@@ -1,0 +1,58 @@
+{
+  "name": "pablorocha.me",
+  "description": "Pablo Rocha's Personal Website",
+  "version": "0.1.0",
+  "author": "Pablo Rocha",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "lint": "eslint ./src",
+    "lint-fix": "eslint ./src --fix"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "gatsby": "^2.0.91",
+    "gatsby-image": "^2.0.26",
+    "gatsby-plugin-gtag": "^1.0.4",
+    "gatsby-plugin-manifest": "^2.0.13",
+    "gatsby-plugin-netlify": "^2.0.6",
+    "gatsby-plugin-offline": "^2.0.21",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-react-svg": "^2.0.0-beta1",
+    "gatsby-plugin-sharp": "^2.0.17",
+    "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-source-filesystem": "^2.0.16",
+    "gatsby-transformer-sharp": "^2.1.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.1.3",
+    "styled-normalize": "^8.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-json": "^1.3.2",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-markdown": "^1.0.0",
+    "eslint-plugin-react": "^7.12.3",
+    "eslint-plugin-react-hooks": "^0.0.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js}": [
+      "yarn lint-fix",
+      "git add"
+    ]
+  }
+}

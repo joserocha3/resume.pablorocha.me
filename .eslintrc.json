@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react/prop-types": "off",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "global-require": "off",
+    "no-use-before-define": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 180
+      }
+    ]
+  }
+}
