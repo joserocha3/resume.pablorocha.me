@@ -3,6 +3,7 @@ module.exports = {
     title: 'Pablo Rocha\'s Technology and Portfolio',
     description: 'Pablo Rocha\'s Technology and Portfolio',
     author: '@jprocha101',
+    siteUrl: 'https://pablorocha.me',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
