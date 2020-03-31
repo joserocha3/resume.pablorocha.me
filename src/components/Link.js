@@ -13,7 +13,6 @@ const StyledLink = styled(GatsbyLink)`
 
 const StyledAnchor = styled.a`
   text-decoration: none;
-  text-transform: uppercase;
   color: rgb(131, 145, 164);
   transition: color 200ms ease-in 0s;
   &:hover {
