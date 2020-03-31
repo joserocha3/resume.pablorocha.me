@@ -3,6 +3,30 @@ import styled from 'styled-components'
 
 import Link from './Link'
 
+const data = [
+  {
+    href: 'https://www.whiterabbitpress.com/japanesegradedreaders',
+    heading: 'Japanese Graded Readers',
+    description: 'React Native app powered by an admin dashboard. Uses Firebase for authentication, storage and notifications.',
+    backgroundColor: '#F0F8FC',
+    borderTop: '#AAB7BD',
+  },
+  {
+    href: 'https://www.pawsomedogs.net',
+    heading: 'Pawsome Dogs Training & Behavior',
+    description: 'Static website designed for a well-known Chicago dog trainer. Built using Gatsby and styled with styled-components.',
+    backgroundColor: '#F6F1E7',
+    borderTop: '#A9A192',
+  },
+  {
+    href: 'https://www.lospinoshardware.com',
+    heading: 'Los Pinos Hardware Co.',
+    description: 'Static website hosted for a growing hardware business. This is a static website with vanilla HTML and CSS.',
+    backgroundColor: '#F0FCF1',
+    borderTop: '#9BB39D',
+  },
+]
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -42,28 +66,21 @@ const Cards = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
-
-  @media (min-width: 750px) {
-    flex-direction: row;
-  }
+  flex-wrap: wrap;
+  flex-direction: row;
 `
 
 const Card = styled(Link)`
-  max-width: 400px;
+  width: 300px;
   height: 200px;
   padding: 10px;
   border-radius: 3px;
   text-transform: none;
   color: black;
-  background-color: ${({ blue }) => (blue ? '#F0F8FC' : '#F6F1E7')};
-  border-top: solid 3px ${({ blue }) => (blue ? '#AAB7BD' : '#A9A192')};
-  margin-right: 0;
+  background-color: ${({ backgroundColor }) => backgroundColor};
+  border-top: solid 3px ${({ borderTop }) => borderTop};
+  margin-right: 2rem;
   margin-bottom: 2rem;
-
-  @media (min-width: 750px) {
-    margin-right: 2rem;
-    margin-bottom: 0;
-  }
 `
 
 const Projects = () => (
@@ -71,14 +88,12 @@ const Projects = () => (
     <Title>Projects</Title>
     <Summary>A few noteworthy projects I have developed for clients.</Summary>
     <Cards>
-      <Card href="https://www.whiterabbitpress.com/japanesegradedreaders/" target="_blank">
-        <Heading>Japanese Graded Readers</Heading>
-        <Descripton>React Native app powered by an admin dashboard. Uses Firebase for authentication, storage and notifications.</Descripton>
-      </Card>
-      <Card href="https://www.pawsomedogs.net/" target="_blank" blue>
-        <Heading>Pawsome Dogs</Heading>
-        <Descripton>Static website designed for a well-known Chicago dog trainer. Built using Gatsby and styled with styled-components.</Descripton>
-      </Card>
+      {data.map(d => (
+        <Card key={d.href} href={d.href} target="_blank" backgroundColor={d.backgroundColor} borderTop={d.borderTop}>
+          <Heading>{d.heading}</Heading>
+          <Descripton>{d.description}</Descripton>
+        </Card>
+      ))}
     </Cards>
   </Wrapper>
 )

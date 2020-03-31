@@ -41,14 +41,12 @@ const Cards = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
-
-  @media (min-width: 750px) {
+  flex-wrap: wrap;
     flex-direction: row;
-  }
 `
 
 const Card = styled(Link)`
-  max-width: 400px;
+  width: 300px;
   height: 200px;
   padding: 10px;
   border-radius: 3px;
@@ -56,13 +54,8 @@ const Card = styled(Link)`
   color: black;
   background-color: ${({ purple }) => (purple ? '#AFAEE7' : '#F1A7A7')};
   border-top: solid 3px ${({ purple }) => (purple ? '#7372A8' : '#B96F6F')};
-  margin-right: 0;
+  margin-right: 2rem;
   margin-bottom: 2rem;
-
-  @media (min-width: 750px) {
-    margin-right: 2rem;
-    margin-bottom: 0;
-  }
 `
 
 const Ventures = () => (
