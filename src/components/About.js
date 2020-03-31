@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Link from './Link'
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -36,6 +38,16 @@ const About = () => (
       <br />
       I am very passionate about getting the job done, and getting it done right. Software should
       always be robust, well constructed and maintainable.
+      <br />
+      <br />
+      I am available to help you with your next project or endevour. Feel free to
+      {' '}
+      <Link to="/contact">get in touch</Link>
+      {' '}
+      or
+      {' '}
+      <Link href="https://pablorocha.me/pablo-rocha-resume.pdf" target="_blank">download my resume</Link>
+      .
     </Summary>
   </Wrapper>
 )

@@ -4,8 +4,7 @@ import styled from 'styled-components'
 
 const StyledLink = styled(GatsbyLink)`
   text-decoration: none;
-  text-transform: uppercase;
-  color: rgb(95, 101, 109);
+  color: rgb(131, 145, 164);
   transition: color 200ms ease-in 0s;
   &:hover {
     color: rgb(27, 33, 37);
@@ -15,7 +14,7 @@ const StyledLink = styled(GatsbyLink)`
 const StyledAnchor = styled.a`
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(95, 101, 109);
+  color: rgb(131, 145, 164);
   transition: color 200ms ease-in 0s;
   &:hover {
     color: rgb(27, 33, 37);

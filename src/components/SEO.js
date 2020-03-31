@@ -19,31 +19,31 @@ function SEO({
             script={[{
               type: 'application/ld+json',
               innerHTML: JSON.stringify({
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "name": "Jose Pablo Rocha, Jr.",
-                "image": "https://pablorocha.me/headshot.jpg",
-                "jobTitle": "Software Engineer",
-                "gender": "male",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressLocality": "Edinburg",
-                  "addressRegion": "TX",
-                  "postalCode": "78539",
-                  "addressCountry": "United States"
-               },
-               "email": "pablo@pablorocha.me",
-               "birthDate": "1984-08-16",
-               "alumniOf": "University of Texas Pan American",
-               "birthPlace": "Illinois",
-                "sameAs": [
-                  "https://twitter.com/jprocha101",
-                  "https://www.facebook.com/jprocha101",
-                  "https://github.com/joserocha3",
-                  "https://instagram.com/jprocha101",
-                  "https://www.linkedin.com/in/jprocha101"
+                '@context': 'http://schema.org',
+                '@type': 'Person',
+                name: 'Jose Pablo Rocha, Jr.',
+                image: 'https://pablorocha.me/headshot.jpg',
+                jobTitle: 'Software Engineer',
+                gender: 'male',
+                address: {
+                  '@type': 'PostalAddress',
+                  addressLocality: 'Edinburg',
+                  addressRegion: 'TX',
+                  postalCode: '78539',
+                  addressCountry: 'United States',
+                },
+                email: 'pablo@pablorocha.me',
+                birthDate: '1984-08-16',
+                alumniOf: 'University of Texas Pan American',
+                birthPlace: 'Illinois',
+                sameAs: [
+                  'https://twitter.com/jprocha101',
+                  'https://www.facebook.com/jprocha101',
+                  'https://github.com/joserocha3',
+                  'https://instagram.com/jprocha101',
+                  'https://www.linkedin.com/in/jprocha101',
                 ],
-                "url": "https://pablorocha.me"
+                url: 'https://pablorocha.me',
               }),
             }]}
             title={title}

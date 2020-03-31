@@ -33,6 +33,8 @@ const Pablo = styled(Link)`
 
 const Contact = styled(Link)`
   font-size: .9rem;
+  text-transform: uppercase;
+  text-decoration: none;
 `
 
 const Header = () => (
