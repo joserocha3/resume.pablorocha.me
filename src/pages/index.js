@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import WorkHistory from '../components/WorkHistory'
 import Education from '../components/Education'
 import Skills from '../components/Skills'
 import Ventures from '../components/Ventures'
@@ -31,6 +32,7 @@ const Index = () => (
       <Center>
         <Hero />
         <About />
+        <WorkHistory />
         <Education />
         <Skills />
         <Ventures />

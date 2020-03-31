@@ -46,15 +46,19 @@ const Skills = () => (
       <Badge>JavaScript</Badge>
       <Badge>React</Badge>
       <Badge>React Native</Badge>
+      <Badge>Flutter</Badge>
       <Badge>Firebase</Badge>
+      <Badge>Node.js</Badge>
+      <Badge>Heroku</Badge>
+      <Badge>Hasura</Badge>
+      <Badge>PostgreSQL</Badge>
       <Badge>MongoDB</Badge>
       <Badge>GraphQL</Badge>
+      <Badge>Git</Badge>
       <Badge>Style Components</Badge>
       <Badge>HTML and CSS</Badge>
       <Badge>Netlify</Badge>
-      <Badge>Node.js</Badge>
       <Badge>D3.js</Badge>
-      <Badge>Git</Badge>
     </Badges>
 
     <Heading>SAP</Heading>
