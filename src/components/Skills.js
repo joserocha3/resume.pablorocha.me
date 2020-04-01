@@ -47,6 +47,7 @@ const Skills = () => (
       <Badge>React</Badge>
       <Badge>React Native</Badge>
       <Badge>Flutter</Badge>
+      <Badge>Vue.js</Badge>
       <Badge>Firebase</Badge>
       <Badge>Node.js</Badge>
       <Badge>Heroku</Badge>
@@ -55,7 +56,7 @@ const Skills = () => (
       <Badge>MongoDB</Badge>
       <Badge>GraphQL</Badge>
       <Badge>Git</Badge>
-      <Badge>Style Components</Badge>
+      <Badge>style-components</Badge>
       <Badge>HTML and CSS</Badge>
       <Badge>Netlify</Badge>
       <Badge>D3.js</Badge>

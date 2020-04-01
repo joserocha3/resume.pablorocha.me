@@ -37,7 +37,7 @@ const About = () => (
       <br />
       <br />
       I am very passionate about getting the job done, and getting it done right. Software should
-      always be robust, well constructed and maintainable.
+      always be robust, well-constructed and maintainable.
       <br />
       <br />
       I am available to help you with your next project or endevour. Feel free to

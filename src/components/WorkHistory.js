@@ -59,11 +59,11 @@ const WorkHistory = () => (
     <Section>
       <Name>Owner / Developer</Name>
       <Description>2015 - present</Description>
-      <div>- Lead programmer for multiple web-based applications built React and Mobx or Redux state management</div>
+      <div>- Lead programmer for multiple web-based applications built React / Vue.js and MobX / Redux state management</div>
       <div>- Publish applications using a Node.js and GraphQL backend with React and Redux on the frontend</div>
       <div>- Document React component architecture for use by self and other team members</div>
       <div>- Deploy Meteor applications to Galaxy and Heroku hosting services</div>
-      <div>- Experience publishing to the Google Play Store and Apple App Store</div>
+      <div>- Created Flutter / React Native mobile applications and publishe to the Google Play Store and Apple App Store</div>
     </Section>
     <Subtitle>Tyson Foods, Inc.</Subtitle>
     <Section>
