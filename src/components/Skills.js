@@ -13,7 +13,6 @@ const Wrapper = styled.div`
 const Badges = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
 `
 
 const Badge = styled.div`
@@ -21,6 +20,7 @@ const Badge = styled.div`
   background-color: #BFE6FE;
   border-radius: 50px;
   margin-right: 1rem;
+  margin-bottom: 1rem;
 `
 
 const Skills = () => (
