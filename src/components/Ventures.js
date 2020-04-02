@@ -7,7 +7,7 @@ import Link from './Link'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 `
 
 const Summary = styled.div`
@@ -30,7 +30,7 @@ const Cards = styled.div`
   flex-direction: column;
   padding-top: 2rem;
   flex-wrap: wrap;
-    flex-direction: row;
+  flex-direction: row;
 `
 
 const Card = styled(Link)`

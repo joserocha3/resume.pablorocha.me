@@ -7,12 +7,13 @@ import Subtitle from './Subtitle'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 `
 
 const Badges = styled.div`
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
 `
 
 const Badge = styled.div`
