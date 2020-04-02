@@ -1,28 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Title from './Title'
+import Subtitle from './Subtitle'
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 3rem;
 `
-
-const Subtitle = styled.h3`
-  font-weight: 400;
-  margin-top: 2rem;
-  margin-bottom: 0;
-  color: #696969;
-
-  @media (min-width: 800px) {
-    font-size: 2.25rem;
-  }
-
-  @media (min-width: 500px) {
-    font-size: 1.75rem;
-  }
-`
-
-const Heading = styled.h3``
 
 const Badges = styled.div`
   display: flex;
@@ -30,7 +16,6 @@ const Badges = styled.div`
 `
 
 const Badge = styled.div`
-  font-size: 1rem;
   padding: 1rem;
   background-color: #BFE6FE;
   border-radius: 50px;
@@ -40,8 +25,8 @@ const Badge = styled.div`
 
 const Skills = () => (
   <Wrapper>
-    <Subtitle>Skills</Subtitle>
-    <Heading>Programming</Heading>
+    <Title>Skills</Title>
+    <Subtitle>Programming</Subtitle>
     <Badges>
       <Badge>JavaScript</Badge>
       <Badge>React</Badge>
@@ -62,7 +47,7 @@ const Skills = () => (
       <Badge>D3.js</Badge>
     </Badges>
 
-    <Heading>SAP</Heading>
+    <Subtitle>SAP</Subtitle>
     <Badges>
       <Badge>ABAP programming</Badge>
       <Badge>Remote function calls</Badge>

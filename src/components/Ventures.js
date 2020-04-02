@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Title from './Title'
 import Link from './Link'
 
 const Wrapper = styled.div`
@@ -9,28 +10,15 @@ const Wrapper = styled.div`
   padding-bottom: 3rem;
 `
 
-const Title = styled.h2`
-  font-weight: 800;
-  margin-top: 0;
-
-  @media (min-width: 800px) {
-    font-size: 2.75rem;
-  }
-
-  @media (min-width: 500px) {
-    font-size: 2.25rem;
-  }
-`
-
 const Summary = styled.div`
   line-height: 1.5;
   font-size: 1.2rem;
 `
 
 const Heading = styled.h3`
-  line-height: 1.3;
-  font-size: 1.5rem;
-  font-weight: 700;
+line-height: 1.3;
+font-size: 1.5rem;
+font-weight: 700;
 `
 
 const Descripton = styled.div`

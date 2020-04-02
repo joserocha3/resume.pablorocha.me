@@ -1,25 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Title from './Title'
 import Link from './Link'
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 3rem;
-`
-
-const Title = styled.h2`
-  font-weight: 800;
-  margin-top: 0;
-
-  @media (min-width: 800px) {
-    font-size: 2.75rem;
-  }
-
-  @media (min-width: 500px) {
-    font-size: 2.25rem;
-  }
 `
 
 const Summary = styled.div`

@@ -1,41 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Title from './Title'
+import Subtitle from './Subtitle'
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-`
-
-const Title = styled.h2`
-  font-weight: 800;
-  margin: 0;  
-
-  @media (min-width: 800px) {
-    font-size: 2.75rem;
-  }
-
-  @media (min-width: 500px) {
-    font-size: 2.25rem;
-  }
-`
-
-const Subtitle = styled.h3`
-  font-weight: 400;
-  color: #696969;
-  margin-bottom: 1rem;
-
-  @media (min-width: 800px) {
-    font-size: 2.25rem;
-  }
-
-  @media (min-width: 500px) {
-    font-size: 1.75rem;
-  }
+  padding-bottom: 3rem;
 `
 
 const Section = styled.div`
   line-height: 1.5; 
-  font-size: 1.2rem;
+  font-size: 1.2rem;  
   margin-bottom: 1rem;
   padding: 10px;
   border-radius: 3px;

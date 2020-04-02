@@ -4,9 +4,10 @@ import styled from 'styled-components'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Center from '../components/Center'
+import Link from '../components/Link'
 
 const Wrapper = styled(Center)`
-  padding: 0 1rem;
+  padding: 0 1rem 2rem;
   text-align: left;
 
   @media (min-width: 800px) {
@@ -19,13 +20,13 @@ const Form = styled.form`
   flex-direction: column;
   align-items: flex-start;
   max-width: 500px;
-  margin: 0 0 4rem 0;
+  margin: 0 0 3rem 0;
 
 
   @media (min-width: 800px) {
     text-align: center;
     align-items: center;
-    margin: 0 auto 4rem auto;
+    margin: 0 auto 3rem auto;
   }
 `
 
@@ -55,7 +56,7 @@ const Description = styled.div`
 const Input = styled.input`
   width: 100%;
   font-size: 18px;
-  line-height: 1.55556;
+  line-height: 1.5;
   -webkit-appearance: none;
   margin: 0px 0px 2rem;
   border-width: 0px 0px 1px;
@@ -68,7 +69,7 @@ const Input = styled.input`
 const TextArea = styled.textarea`
   width: 100%;
   font-size: 18px;
-  line-height: 1.55556;
+  line-height: 1.5;
   -webkit-appearance: none;
   margin: 0px 0px 2rem;
   border-width: 0px 0px 1px;
@@ -91,7 +92,11 @@ const Submit = styled.button`
   padding: 1rem 1.25rem;
   border-radius: 30px;
   border-width: 0px;
-  background: #AFADE7;
+  background: #AFAEE7;
+`
+
+const Email = styled.p`
+  font-size: 1.2rem;
 `
 
 const Contact = () => (
@@ -114,6 +119,12 @@ const Contact = () => (
 
         <Submit type="submit">Send</Submit>
       </Form>
+
+      <Email>
+        or email me at
+        {' '}
+        <Link href="mailto:hello@pablorocha.me">hello@pablorocha.me</Link>
+      </Email>
     </Wrapper>
   </Layout>
 )

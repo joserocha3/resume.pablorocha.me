@@ -19,13 +19,6 @@ const Links = styled.div`
   font-size: .9rem;
 `
 
-const Copy = styled.div`
-  display: block;
-  font-size: 0.8rem;
-  color: rgb(140, 149, 161);
-  margin-top: 2rem;
-`
-
 const Footer = () => (
   <Wrapper>
     <Links>
@@ -33,7 +26,6 @@ const Footer = () => (
       <Link to="/contact/">Get In Touch</Link>
     </Links>
     <Social />
-    <Copy>Copyright © 2019 Pablo Rocha</Copy>
   </Wrapper>
 )
 
