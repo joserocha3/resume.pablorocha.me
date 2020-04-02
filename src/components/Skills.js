@@ -7,7 +7,7 @@ import Subtitle from './Subtitle'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 `
 
 const Badges = styled.div`
@@ -21,7 +21,6 @@ const Badge = styled.div`
   background-color: #BFE6FE;
   border-radius: 50px;
   margin-right: 1rem;
-  margin-bottom: 1rem;
 `
 
 const Skills = () => (
