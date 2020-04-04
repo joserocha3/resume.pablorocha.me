@@ -32,7 +32,7 @@ function SEO({
                   postalCode: '78539',
                   addressCountry: 'United States',
                 },
-                email: 'pablo@pablorocha.me',
+                email: 'hello@pablorocha.me',
                 birthDate: '1984-08-16',
                 alumniOf: 'University of Texas Pan American',
                 birthPlace: 'Illinois',

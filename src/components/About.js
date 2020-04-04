@@ -44,7 +44,7 @@ const About = () => (
       <Item>
         <span role="img" aria-label="contact">📫 </span>
         Email at
-        <Link href="mailto:pablo@pablorocha.me" target="_blank"> pablo@pablorocha.me</Link>
+        <Link href="mailto:hello@pablorocha.me" target="_blank"> hello@pablorocha.me</Link>
       </Item>
       <Item>
         <span role="img" aria-label="contact">📄 </span>
