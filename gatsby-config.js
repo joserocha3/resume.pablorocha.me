@@ -46,7 +46,6 @@ module.exports = {
         icon: 'src/images/initials.png', // This path is relative to the root of the site.
       },
     },
-    // TODO: uncomment next line once website is finalized
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }

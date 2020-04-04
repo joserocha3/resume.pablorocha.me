@@ -26,7 +26,10 @@ const Index = () => (
     <SEO
       title="Home"
       description="Pablo Rocha is a developer & tech enthusiast."
-      keywords={['developer', 'technology', 'web', 'mobile', 'software']}
+      keywords={[
+        'Software Development', 'Web Development', 'JavaScript', 'React', 'Programming',
+        'Coding', 'HTML', 'CSS', 'GraphQL', 'Software Engineering', 'Contractor', 'Hire',
+      ]}
     />
     <Main>
       <Center>

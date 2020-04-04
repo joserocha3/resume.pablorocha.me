@@ -104,7 +104,11 @@ const Contact = () => (
     <SEO
       title="Contact"
       description="Contact Pablo to work on your upcoming project or chat about your favorite tech stack."
-      keywords={['contact', 'hire', 'talk', 'technology']}
+      keywords={[
+        'Contact', 'Hire', 'Technology', 'Contractor',
+        'Software Development', 'Web Development', 'JavaScript', 'React', 'Programming',
+        'Coding', 'HTML', 'CSS', 'GraphQL', 'Software Engineering',
+      ]}
     />
     <Wrapper>
       <Name>{'Let\'s Collaborate'}</Name>

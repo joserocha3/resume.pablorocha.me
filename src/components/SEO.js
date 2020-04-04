@@ -54,6 +54,10 @@ function SEO({
                 content: metaDescription,
               },
               {
+                property: 'og:image',
+                content: 'https://pablorocha.me/headshot.jpg',
+              },
+              {
                 property: 'og:title',
                 content: title,
               },
