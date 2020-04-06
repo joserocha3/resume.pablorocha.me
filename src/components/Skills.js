@@ -32,6 +32,7 @@ const Skills = () => (
       <Badge>React</Badge>
       <Badge>React Native</Badge>
       <Badge>Flutter</Badge>
+      <Badge>Next.js</Badge>
       <Badge>Vue.js</Badge>
       <Badge>Firebase</Badge>
       <Badge>Node.js</Badge>
