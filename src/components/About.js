@@ -38,18 +38,18 @@ const About = () => (
       </p>
       <Item>
         <span role="img" aria-label="contact">✏️ </span>
-        Get in touch via my
-        <Link to="/contact"> contact form</Link>
+        Get in touch via my&nbsp;
+        <Link to="/contact">contact form</Link>
       </Item>
       <Item>
         <span role="img" aria-label="contact">📫 </span>
-        Email me at
-        <Link href="mailto:hello@pablorocha.me" target="_blank"> hello@pablorocha.me</Link>
+        Email me at&nbsp;
+        <Link href="mailto:hello@pablorocha.me" target="_blank">hello@pablorocha.me</Link>
       </Item>
       <Item>
         <span role="img" aria-label="contact">📄 </span>
-        Download my
-        <Link href="https://pablorocha.me/pablo-rocha-resume.pdf" target="_blank" rel="noreferrer"> resume</Link>
+        Download my&nbsp;
+        <Link href="https://pablorocha.me/pablo-rocha-resume.pdf" target="_blank" rel="noreferrer">resume</Link>
       </Item>
     </Summary>
   </Wrapper>

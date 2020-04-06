@@ -34,7 +34,7 @@ const Description = styled.div`
   color: #333;
   letter-spacing: -0.04em;
   line-height: 1.3;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 `
 
 const IndexPage = () => (

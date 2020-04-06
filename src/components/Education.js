@@ -20,12 +20,14 @@ const Section = styled.div`
   border-top: solid 3px #BCBCBC;
 `
 
-const Name = styled.div`
-  text-decoration: underline;
+const Name = styled.h4`
+  font-weight: bold;
+  color: #3e3e3e;
+  margin: 0;
 `
 
 const Description = styled.div`
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 `
 
 const Education = () => (
@@ -49,6 +51,7 @@ const Education = () => (
 
     <Section>
       <Name>Relevant Coursework</Name>
+      <Description />
       <div>- Systems Analysis and Design</div>
       <div>- Management Information Systems</div>
       <div>- Database Development</div>

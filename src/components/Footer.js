@@ -16,7 +16,7 @@ const Links = styled.div`
   margin: 0 auto 2rem auto;
   display: flex;
   justify-content: space-between;
-  font-size: .9rem;
+  font-size: 1rem;
 `
 
 const Footer = () => (

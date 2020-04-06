@@ -7,7 +7,7 @@ import Facebook from '../images/facebook.svg'
 import LinkedIn from '../images/linkedin.svg'
 
 const StyledGithub = styled(Github)`
-  margin-right: 1rem;
+  padding: .5rem;
   color: #BBB;
 
   &:hover {
@@ -16,7 +16,7 @@ const StyledGithub = styled(Github)`
 `
 
 const StyledFacebook = styled(Facebook)`
-  margin-right: 1rem;
+padding: .5rem;
   color: #bbb;
 
   &:hover {
@@ -25,7 +25,7 @@ const StyledFacebook = styled(Facebook)`
 `
 
 const StyledLinkedIn = styled(LinkedIn)`
-  margin-right: 1rem;
+  padding: .5rem;
   color: #bbb;
 
   &:hover {
@@ -35,9 +35,9 @@ const StyledLinkedIn = styled(LinkedIn)`
 
 const Social = () => (
   <div>
-    <Link href="https://github.com/joserocha3" target="_blank" rel="noreferrer"><StyledGithub alt="Github link" /></Link>
-    <Link href="https://www.facebook.com/jprocha101" target="_blank" rel="noreferrer"><StyledFacebook alt="Facebook link" /></Link>
-    <Link href="https://www.linkedin.com/in/jprocha101" target="_blank" rel="noreferrer"><StyledLinkedIn alt="LinkedIn link" /></Link>
+    <Link href="https://github.com/joserocha3" target="_blank" rel="noreferrer" aria-label="github profile"><StyledGithub alt="github profile" size={50} /></Link>
+    <Link href="https://www.facebook.com/jprocha101" target="_blank" rel="noreferrer" aria-label="facebook profile"><StyledFacebook alt="facebook profile" /></Link>
+    <Link href="https://www.linkedin.com/in/jprocha101" target="_blank" rel="noreferrer" aria-label="linkedin profile"><StyledLinkedIn alt="linkedin profile" /></Link>
   </div>
 )
 

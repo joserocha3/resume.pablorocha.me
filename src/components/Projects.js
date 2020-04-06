@@ -59,6 +59,7 @@ const Cards = styled.div`
 `
 
 const Card = styled(Link)`
+  text-decoration: none;
   width: 300px;
   height: 200px;
   padding: 10px;
