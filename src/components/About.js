@@ -49,7 +49,7 @@ const About = () => (
       <Item>
         <span role="img" aria-label="contact">📄 </span>
         Download my
-        <Link href="https://pablorocha.me/pablo-rocha-resume.pdf" target="_blank"> resume</Link>
+        <Link href="https://pablorocha.me/pablo-rocha-resume.pdf" target="_blank" rel="noreferrer"> resume</Link>
       </Item>
     </Summary>
   </Wrapper>

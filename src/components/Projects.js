@@ -77,7 +77,7 @@ const Projects = () => (
     <Summary>A few noteworthy projects I have developed for clients.</Summary>
     <Cards>
       {data.map(d => (
-        <Card key={d.href} href={d.href} target="_blank" backgroundColor={d.backgroundColor} borderTop={d.borderTop}>
+        <Card key={d.href} href={d.href} target="_blank" rel="noreferrer" backgroundColor={d.backgroundColor} borderTop={d.borderTop}>
           <Heading>{d.heading}</Heading>
           <Descripton>{d.description}</Descripton>
         </Card>

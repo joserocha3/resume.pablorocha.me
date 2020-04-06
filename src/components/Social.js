@@ -35,9 +35,9 @@ const StyledLinkedIn = styled(LinkedIn)`
 
 const Social = () => (
   <div>
-    <Link href="https://github.com/joserocha3" target="_blank"><StyledGithub alt="Github link" /></Link>
-    <Link href="https://www.facebook.com/jprocha101" target="_blank"><StyledFacebook alt="Facebook link" /></Link>
-    <Link href="https://www.linkedin.com/in/jprocha101" target="_blank"><StyledLinkedIn alt="LinkedIn link" /></Link>
+    <Link href="https://github.com/joserocha3" target="_blank" rel="noreferrer"><StyledGithub alt="Github link" /></Link>
+    <Link href="https://www.facebook.com/jprocha101" target="_blank" rel="noreferrer"><StyledFacebook alt="Facebook link" /></Link>
+    <Link href="https://www.linkedin.com/in/jprocha101" target="_blank" rel="noreferrer"><StyledLinkedIn alt="LinkedIn link" /></Link>
   </div>
 )
 

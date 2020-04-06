@@ -51,11 +51,11 @@ const Ventures = () => (
     <Title>Ventures</Title>
     <Summary>I am actively involved in managing, developing and making big decisions in a couple of tech startups.</Summary>
     <Cards>
-      <Card href="https://www.nomoreanalog.com/" target="_blank" purple>
+      <Card href="https://www.nomoreanalog.com/" target="_blank" rel="noreferrer" purple>
         <Heading>NoMoreAnalog</Heading>
         <Descripton>Mobile and web application development. Making cool apps and keeping clients happy.</Descripton>
       </Card>
-      <Card href="https://www.dotdotdata.com/" target="_blank">
+      <Card href="https://www.dotdotdata.com/" target="_blank" rel="noreferrer">
         <Heading>Dot Dot Data</Heading>
         <Descripton>Proximity technology sevices via web and mobile applications.</Descripton>
       </Card>
